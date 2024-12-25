@@ -20,7 +20,7 @@ universal_binaries:
 brews:
   -
     name: tasks
-    homepage: https://github.com/PriyabrataMo/tasks-cli
+    homepage: https://github.com/PriyabrataMo/tasks
     tap:
       owner: tasks
       name: homebrew-tasks
