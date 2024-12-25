@@ -26,7 +26,7 @@ brews:
     license: MIT
     repository:
       owner: PriyabrataMo
-      name: homebrew-tasks
+      name: homebrew-taps
     commit_author:
       name: Priyabrata
       email: priyabrata8558@gmail.com
