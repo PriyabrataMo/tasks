@@ -24,9 +24,9 @@ brews:
     homepage: https://github.com/PriyabrataMo/tasks
     description: A simple CLI for task management
     license: MIT
-    tap:
+    repository:
       owner: PriyabrataMo
-      repo: homebrew-tasks
+      name: homebrew-tasks
     commit_author:
       name: Priyabrata
       email: priyabrata8558@gmail.com
