@@ -1,3 +1,5 @@
+version: 2
+
 builds:
   - binary: tasks
     goos:
@@ -21,12 +23,15 @@ brews:
   - name: tasks
     homepage: https://github.com/PriyabrataMo/tasks
     description: A simple CLI for task management
-    tap:
+    license: MIT
+    github:
       owner: PriyabrataMo
-      name: homebrew-tasks
+      repo: homebrew-tasks
     commit_author:
       name: Priyabrata
       email: priyabrata8558@gmail.com
+    install: |
+      bin.install "tasks"     
 
 checksum:
   name_template: 'checksums.txt'
