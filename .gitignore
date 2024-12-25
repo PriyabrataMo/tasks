@@ -10,7 +10,6 @@
 *.a
 
 # Go module files
-vendor/
 
 # Test binary
 *.test
