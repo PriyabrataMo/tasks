@@ -1,8 +1,10 @@
+version: 2
+
 builds:
   - binary: tasks
     goos:
       - darwin
-      - linus
+      - linux
     goarch:
       - amd64
       - arm64
@@ -14,15 +16,15 @@ builds:
 release:
   prerelease: auto
 
-universal_binaries:
-  - replace: true
+archives:
+  - format: tar.gz
 
 brews:
-  -
-    name: tasks
+  - name: tasks
     homepage: https://github.com/PriyabrataMo/tasks
+    description: A simple CLI for task management
     tap:
-      owner: tasks
+      owner: PriyabrataMo
       name: homebrew-tasks
     commit_author:
       name: Priyabrata
