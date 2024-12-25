@@ -24,14 +24,12 @@ brews:
     homepage: https://github.com/PriyabrataMo/tasks
     description: A simple CLI for task management
     license: MIT
-    github:
+    tap:
       owner: PriyabrataMo
       repo: homebrew-tasks
     commit_author:
       name: Priyabrata
       email: priyabrata8558@gmail.com
-    install: |
-      bin.install "tasks"     
 
 checksum:
   name_template: 'checksums.txt'
