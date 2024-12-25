@@ -24,7 +24,7 @@ brews:
     homepage: https://github.com/PriyabrataMo/tasks
     description: A simple CLI for task management
     github:
-      owner: tasks
+      owner: PriyabrataMo
       name: homebrew-tasks
     commit_author:
       name: Priyabrata
