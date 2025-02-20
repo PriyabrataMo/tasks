@@ -11,18 +11,10 @@ Tasks CLI is a command-line todo application that helps you manage your tasks ef
 
 ## Installation
 
-1. Clone the repository:
+1. Tap & Install via Homebrew:
     ```bash
-    git clone https://github.com/PriyabrataMo/tasks-cli
-    ```
-2. Build the executable:
-    ```bash
-    cd tasks-cli
-    go build
-    ```
-3. Move the executable to `/usr/local/bin`:
-    ```bash
-    mv tasks-cli /usr/local/bin
+    brew tap PriyabrataMo/homebrew-taps
+    brew install tasks
     ```
 
 ## Usage
@@ -45,3 +37,27 @@ List all tasks:
 ```bash
 tasks list
 ```
+
+## Uninstall
+```sh
+brew uninstall tasks
+```
+
+## Troubleshooting
+• "Command Not Found" → try:
+```sh
+brew link tasks
+```
+• Permission issues → consider:
+```sh
+sudo brew install tasks
+```
+
+## License
+MIT License
+
+## Contributing
+Open issues or submit pull requests.
+
+## Support
+Give a ⭐ on GitHub.
